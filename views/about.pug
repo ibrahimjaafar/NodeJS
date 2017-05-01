@@ -1,0 +1,15 @@
+extends parent
+ 
+block header
+	include ./head.pug
+
+block navigation
+	include ./navigation.pug
+
+block articles
+	include ./article.pug
+	+aboutarticle
+
+block footer
+	include ./footer.pug
+	+aboutnav
